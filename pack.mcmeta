@@ -1,0 +1,7 @@
+{
+    "pack": {
+      "pack_format": 48,
+       "supported_formats": {"min_inclusive": 48, "max_inclusive": 500},
+      "description": "Remove end crystal and Tnt [1.0.0]"
+    }
+}

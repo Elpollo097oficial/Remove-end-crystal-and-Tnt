@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:tnt",
+            "components": {},
+            "count": 1
+        },
+        "title": "Remove Tnt",
+        "description": {
+            "text": "it doesn't make sense, but OK.",
+            "color": "red",
+            "bold": true,
+            "italic": true
+        },
+        "background": "minecraft:block/anvil",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "remove_end:remove/root",
+    "criteria": {
+        "remove": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "sends_telemetry_event": true
+}
